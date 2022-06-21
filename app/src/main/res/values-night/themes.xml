@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">#ffd0bcff</item>
+        <item name="colorOnPrimary">#ff381e72</item>
+        <item name="colorPrimaryContainer">#ff4f378b</item>
+        <item name="colorOnPrimaryContainer">#ffeaddff</item>
+        <item name="colorPrimaryInverse">#ff6750a4</item>
+        <item name="colorSecondary">#ffccc2dc</item>
+        <item name="colorSecondaryContainer">#ff4a4458</item>
+        <item name="colorOnTertiaryContainer">#ffe8def8</item>
+        <item name="colorOnSecondaryContainer">#ffe8def8</item>
+        <item name="colorTertiary">#ffefb8c8</item>
+        <item name="colorOnTertiary">#ff492532</item>
+        <item name="colorTertiaryContainer">#ff633b48</item>
+    </style>
+</resources>

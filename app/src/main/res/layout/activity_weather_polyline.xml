@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="10dp">
+
+
+                    <TextView
+                        android:id="@+id/tv_week01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="今天"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/tv_date01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:gravity="center"
+                        android:text="11月25日"
+                        android:textSize="11sp" />
+
+
+                    <ImageView
+                        android:id="@+id/iv_weather_img_day01"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="8dp"
+                        android:src="@mipmap/ic_launcher" />
+
+                    <TextView
+                        android:id="@+id/tv_weather_day01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="多云"
+                        android:textSize="12sp" />
+
+
+                    <View
+                        android:id="@+id/view01"
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp" />
+
+                    <ImageView
+                        android:id="@+id/iv_weather_img_night01"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@mipmap/ic_launcher" />
+
+                    <TextView
+                        android:id="@+id/tv_weather_night01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center"
+                        android:text="多云"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_wind01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:gravity="center"
+                        android:text="南风"
+                        android:textSize="12sp" />
+
+
+                    <TextView
+                        android:id="@+id/tv_wind_level01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center"
+                        android:text="3级"
+                        android:textSize="11sp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="10dp">
+
+
+                    <TextView
+                        android:id="@+id/tv_week02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="今天"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/tv_date02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:gravity="center"
+                        android:text="11月25日"
+                        android:textSize="11sp" />
+
+
+                    <ImageView
+                        android:id="@+id/iv_weather_img_day02"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@mipmap/ic_launcher" />
+
+                    <TextView
+                        android:id="@+id/tv_weather_day02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="多云"
+                        android:textSize="12sp" />
+
+
+                    <View
+                        android:id="@+id/view02"
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp" />
+
+                    <ImageView
+                        android:id="@+id/iv_weather_img_night02"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@mipmap/ic_launcher" />
+
+                    <TextView
+                        android:id="@+id/tv_weather_night02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center"
+                        android:text="多云"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_wind02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:gravity="center"
+                        android:text="南风"
+                        android:textSize="12sp" />
+
+
+                    <TextView
+                        android:id="@+id/tv_wind_level02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center"
+                        android:text="3级"
+                        android:textSize="11sp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="10dp">
+
+
+                    <TextView
+                        android:id="@+id/tv_week03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="今天"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/tv_date03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:gravity="center"
+                        android:text="11月25日"
+                        android:textSize="11sp" />
+
+
+                    <ImageView
+                        android:id="@+id/iv_weather_img_day03"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@mipmap/ic_launcher" />
+
+                    <TextView
+                        android:id="@+id/tv_weather_day03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="多云"
+                        android:textSize="12sp" />
+
+
+                    <View
+                        android:id="@+id/view03"
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp" />
+
+                    <ImageView
+                        android:id="@+id/iv_weather_img_night03"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@mipmap/ic_launcher" />
+
+                    <TextView
+                        android:id="@+id/tv_weather_night03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center"
+                        android:text="多云"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_wind03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:gravity="center"
+                        android:text="南风"
+                        android:textSize="12sp" />
+
+
+                    <TextView
+                        android:id="@+id/tv_wind_level03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center"
+                        android:text="3级"
+                        android:textSize="11sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="10dp">
+
+
+                    <TextView
+                        android:id="@+id/tv_week04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="今天"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/tv_date04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:gravity="center"
+                        android:text="11月25日"
+                        android:textSize="11sp" />
+
+
+                    <ImageView
+                        android:id="@+id/iv_weather_img_day04"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@mipmap/ic_launcher" />
+
+                    <TextView
+                        android:id="@+id/tv_weather_day04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="多云"
+                        android:textSize="12sp" />
+
+
+                    <View
+                        android:id="@+id/view04"
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp" />
+
+                    <ImageView
+                        android:id="@+id/iv_weather_img_night04"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@mipmap/ic_launcher" />
+
+                    <TextView
+                        android:id="@+id/tv_weather_night04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center"
+                        android:text="多云"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_wind04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:gravity="center"
+                        android:text="南风"
+                        android:textSize="12sp" />
+
+
+                    <TextView
+                        android:id="@+id/tv_wind_level04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center"
+                        android:text="3级"
+                        android:textSize="11sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="10dp">
+
+
+                    <TextView
+                        android:id="@+id/tv_week05"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="今天"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/tv_date05"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:gravity="center"
+                        android:text="11月25日"
+                        android:textSize="11sp" />
+
+
+                    <ImageView
+                        android:id="@+id/iv_weather_img_day05"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@mipmap/ic_launcher" />
+
+                    <TextView
+                        android:id="@+id/tv_weather_day05"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="多云"
+                        android:textSize="12sp" />
+
+
+                    <View
+                        android:id="@+id/view05"
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp" />
+
+                    <ImageView
+                        android:id="@+id/iv_weather_img_night05"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@mipmap/ic_launcher" />
+
+                    <TextView
+                        android:id="@+id/tv_weather_night05"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center"
+                        android:text="多云"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_wind05"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:gravity="center"
+                        android:text="南风"
+                        android:textSize="12sp" />
+
+
+                    <TextView
+                        android:id="@+id/tv_wind_level05"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center"
+                        android:text="3级"
+                        android:textSize="11sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="10dp">
+
+
+                    <TextView
+                        android:id="@+id/tv_week06"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="今天"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/tv_date06"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:gravity="center"
+                        android:text="11月25日"
+                        android:textSize="11sp" />
+
+
+                    <ImageView
+                        android:id="@+id/iv_weather_img_day06"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@mipmap/ic_launcher" />
+
+                    <TextView
+                        android:id="@+id/tv_weather_day06"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="多云"
+                        android:textSize="12sp" />
+
+
+                    <View
+                        android:id="@+id/view06"
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp" />
+
+                    <ImageView
+                        android:id="@+id/iv_weather_img_night06"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@mipmap/ic_launcher" />
+
+                    <TextView
+                        android:id="@+id/tv_weather_night06"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center"
+                        android:text="多云"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_wind06"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:gravity="center"
+                        android:text="南风"
+                        android:textSize="12sp" />
+
+
+                    <TextView
+                        android:id="@+id/tv_wind_level06"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center"
+                        android:text="3级"
+                        android:textSize="11sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="20dp">
+
+
+                    <TextView
+                        android:id="@+id/tv_week07"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="今天"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/tv_date07"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:gravity="center"
+                        android:text="11月25日"
+                        android:textSize="11sp" />
+
+
+                    <ImageView
+                        android:id="@+id/iv_weather_img_day07"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@mipmap/ic_launcher" />
+
+                    <TextView
+                        android:id="@+id/tv_weather_day07"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:text="多云"
+                        android:textSize="12sp" />
+
+
+                    <View
+                        android:id="@+id/view07"
+                        android:layout_width="match_parent"
+                        android:layout_height="220dp" />
+
+                    <ImageView
+                        android:id="@+id/iv_weather_img_night07"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@mipmap/ic_launcher" />
+
+                    <TextView
+                        android:id="@+id/tv_weather_night07"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center"
+                        android:text="多云"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_wind07"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:gravity="center"
+                        android:text="南风"
+                        android:textSize="12sp" />
+
+
+                    <TextView
+                        android:id="@+id/tv_wind_level07"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:gravity="center"
+                        android:text="3级"
+                        android:textSize="11sp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/myLinceChart"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </HorizontalScrollView>
+
+</layout>

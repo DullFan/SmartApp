@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ui.activity.recharge.RechargeActivity">
+
+        <TextView
+            android:id="@+id/recharge_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:text="账户余额: 0.0元"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/recharge_button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="50元"
+                android:textColor="@color/theme_color"
+                app:backgroundTint="#ffeaddff"
+                app:cornerRadius="5dp" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/recharge_button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_weight="1"
+                android:text="100元"
+                android:textColor="@color/theme_color"
+                app:backgroundTint="#ffeaddff"
+                app:cornerRadius="5dp" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:id="@+id/recharge_button3"
+                android:layout_weight="1"
+                android:text="200元"
+                android:textColor="@color/theme_color"
+                app:backgroundTint="#ffeaddff"
+                app:cornerRadius="5dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="300元"
+                android:id="@+id/recharge_button4"
+                android:textColor="@color/theme_color"
+                app:backgroundTint="#ffeaddff"
+                app:cornerRadius="5dp" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_weight="1"
+                android:text="500元"
+                android:id="@+id/recharge_button5"
+                android:textColor="@color/theme_color"
+                app:backgroundTint="#ffeaddff"
+                app:cornerRadius="5dp" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:text="200元"
+                android:textColor="@color/theme_color"
+                android:visibility="invisible"
+                app:backgroundTint="#ffeaddff"
+                app:cornerRadius="5dp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="20dp"
+            android:id="@+id/recharge_list"
+            android:src="@drawable/ic_baseline_receipt_long_24"/>
+    </LinearLayout>
+</layout>

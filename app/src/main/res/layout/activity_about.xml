@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center|top"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.my.AboutActivity">
+
+
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:round="5dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/gif1"/>
+
+    <TextView
+        android:text="智能APP"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="@color/gray"
+        android:textSize="14dp"
+        android:text="Version 1.0"
+        android:layout_marginTop="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="@color/gray"
+        android:textSize="14dp"
+        android:text="DullFan制作"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
